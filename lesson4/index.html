@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="text">Form Validation Examples</h1>
+    <form onsubmit="return validateForm()" id="form-input">
+      <div id="input1">
+        <label>Name:</label>
+        <input
+          type="text"
+          placeholder="Enter your name"
+          id="name"
+          class="text-input"
+        />
+        <p id="err1"></p>
+      </div>
+
+      <div id="input1">
+        <label>Email:</label>
+        <input
+          type="email"
+          placeholder="Enter your email"
+          id="email"
+          class="text-input"
+        />
+        <p id="err2"></p>
+      </div>
+
+      <input type="submit" value="submit" id="submit-input" />
+    </form>
+
+    <div class="dis">
+      <h2 id="name1"></h2>
+      <h3 id="email1"></h3>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

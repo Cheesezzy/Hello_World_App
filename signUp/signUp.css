@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.join{
+    color: #3632DF;
+}
+body{
+    font-family: Syne;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 30px;
+    padding-block: 30px;
+}
+.int{
+    width: 490px;
+    height: 70px;
+    border-radius: 8px;
+    border-color: rgb(208, 206, 206);
+}
+.check{
+    display: flex;
+    padding-block: 5px;
+    align-items: center;
+    gap: 10px;
+}
+.check p{
+    font-size: 12px;
+}
+.btn1{
+    margin-top: 40px;
+}
+.checkbox{
+    width: 20px;
+    height: 20px;
+    border-radius: 8px;
+}
+.btn1{
+    height: 50px;
+    width: 350px;
+    border-radius: 8px;
+    color: white;
+    background: #3632DF;
+    border: none;
+    font-size: 16px;
+}
+.btn2{
+    height: 50px;
+    width: 350px;
+    border-radius: 8px;
+    background: black;
+    color: white;
+    border: none;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.opt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.left{
+    width: 60%;
+    height: 100vh;
+    padding-inline:100px ;
+
+}
+.right{
+    background-color: #3632DF;
+    width: 35%;
+    height: 100vh;
+
+}
+.sec{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    gap: 200px;
+    padding-block: 50px;
+}
+.links{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}

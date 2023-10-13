@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body style="background-color: aqua; text-align: center">
+    <h2>Form Validation Example</h2>
+
+    <p>How old are you now</p>
+    <input type="number" id="age-input" />
+    <button onclick="return sub()">submit</button>
+    <h1 id="demo"></h1>
+    <button onclick="return todaysDate()">click here to get todays date</button>
+    <p id="date"></p>
+
+    <script>
+      function todaysDate() {
+        var date = new Date();
+        console.log(date);
+        document.getElementById("date").innerHTML = date;
+      }
+      function sub() {
+        var input = document.getElementById("age-input").value;
+        console.log(input);
+        var answer;
+
+        if (input >= 18) {
+          answer = "You are an Adult";
+        } else {
+          answer = "You are a Minor";
+        }
+        document.getElementById("demo").innerHTML = answer;
+      }
+    </script>
+  </body>
+</html>
